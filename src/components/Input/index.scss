@@ -1,0 +1,104 @@
+.ContainerInput {
+
+
+   display: flex;
+   justify-content: center;
+
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400 !important;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: left;
+
+   margin-top: 5%;
+
+   &__Container {
+      display: flex;
+      flex-direction: column;
+
+      width: 45% !important;
+      background-color: #fff;
+
+      border-radius: 30px;
+   }
+
+   &__Container--form {
+      display: flex;
+      justify-content: center;
+
+      padding: 10%;
+   }
+
+   &__Form {
+      display: flex;
+      flex-direction: column;
+
+      width: 80%;
+
+      input {
+         background: #F2F2F2E5;
+      }
+
+      label {
+         width: 100% !important;
+      }
+   }
+
+   &__Button {
+      margin-top: 3.5rem;
+   }
+
+}
+
+.form-label {
+   margin-bottom: 15px;
+}
+
+
+
+.form-control {
+
+   &::placeholder {
+      color: #3939398c;
+
+      font-family: Inter !important;
+      font-size: 15px !important;
+      font-weight: 400 !important;
+   }
+}
+
+@media screen and (max-width: 1450px) {
+   .ContainerInput {
+      &__Container {
+         margin: 0 !important;
+         width: 65% !important;
+      }
+   }
+}
+@media screen and (max-width: 1150px) {
+   .ContainerInput {
+      &__Container {
+         margin: 0 !important;
+         width: 70% !important;
+      }
+   }
+}
+
+@media screen and (max-width: 728px) {
+   .ContainerInput {
+      &__Container {
+         margin: 0 !important;
+         width: 80% !important;
+      }
+   }
+}
+
+@media screen and (max-width: 430px) {
+   .ContainerInput {
+      &__Container {
+         margin: 0 !important;
+         width: 80% !important;
+      }
+   }
+}

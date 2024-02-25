@@ -1,0 +1,47 @@
+.Footer {
+    display: flex;
+    justify-content: end;
+    background-color: #0C70F2;
+
+
+    &__Container {
+        display: flex;
+        color: #fff;
+        padding: 1% 2%;
+        margin-top: 10px;
+
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600 !important;
+    }
+}
+
+
+@media screen and (max-width: 728px) {
+    .Footer {
+        display: flex;
+        justify-content: center;
+        h3 {
+            font-size: 15px !important;
+            line-height: 35px;
+
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .Footer {
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            font-size: 15px !important;
+            line-height: 35px;
+
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

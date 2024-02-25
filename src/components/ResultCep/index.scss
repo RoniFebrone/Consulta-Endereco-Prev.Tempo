@@ -1,0 +1,214 @@
+.ResultCep {
+    margin: 5%;
+
+    &__Container {
+        margin-top: 1.5rem;
+
+        h1 {
+            margin-left: 4%;
+
+            font-family: Inter;
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 61px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    //=================================================================================================================================================================================================================================
+    //PARTE LABEL 
+    &__Container--label {
+        background-color: #0C70F2;
+        border-radius: 30px 30px 0px 0px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    &__Row--label {
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        text-align: center;
+        gap: 7rem;
+
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 800 !important;
+        color: #FFF;
+    }
+
+    //=================================================================================================================================================================================================================================
+    //PARTE INPUT 
+    &__Container--input {
+        background-color: #FFF;
+        border-radius: 0px 0px 30px 30px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__Row--input {
+        padding: 1%;
+
+        input {
+            text-align: center;
+            border: 0;
+
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 800;
+
+        }
+    }
+}
+
+//=================================================================================================================================================================================================================================
+
+
+.form-label {
+    width: 200px;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 996px) {
+    .ResultCep {
+        h1 {
+            font-size: 35px;
+            font-weight: 800;
+        }
+
+        &__Container--Responsive {
+            display: flex;
+            width: 100%
+        }
+
+
+        &__Container--label {
+            display: flex;
+            width: 50%;
+            border-radius: 30px 0px 0px 30px;
+        }
+
+        &__Row--label {
+            display: flex;
+            flex-direction: column;
+
+            gap: 5px;
+        }
+
+        &__Container--input {
+            display: flex;
+
+            width: 50%;
+            border-radius: 0px 30px 30px 0px;
+        }
+
+        &__Row--input {
+            display: flex;
+            flex-direction: column;
+
+            gap: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .ResultCep {
+        img {
+            width: 80px;
+            height: 60px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 35px;
+        }
+        .form-label {
+            font-family: Inter;
+            font-size: 15px !important;
+            font-weight: 800 !important;
+            color: #FFF;
+            width: auto;
+        }
+
+        .form-control {
+            font-size: 15px !important;
+        }
+
+        &__Container--input {
+            display: flex;
+            width: 50%;
+        }
+
+        &__Row--input {
+            display: flex;
+            flex-direction: column;
+
+            width: 100%;
+
+            input {
+                &::placeholder {
+                    color: #3939398c;
+                    font-family: Inter !important;
+                    font-size: 13px !important;
+                    font-weight: 400 !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .ResultCep {
+        img {
+            width: 70px;
+            height: 50px;
+        }
+
+        h1 {
+            font-size: 25px;
+            font-weight: 800;
+            line-height: 35px;
+        }
+
+        .form-label {
+            font-family: Inter;
+            font-size: 13px !important;
+            font-weight: 800 !important;
+            color: #FFF;
+            width: auto;
+        }
+
+        .form-control {
+            font-size: 13px !important;
+        }
+
+        &__Container--input {
+            display: flex;
+            width: 50%;
+        }
+
+        &__Row--input {
+            display: flex;
+            flex-direction: column;
+
+            width: 100%;
+
+            input {
+                &::placeholder {
+                    color: #3939398c;
+                    font-family: Inter !important;
+                    font-size: 13px !important;
+                    font-weight: 400 !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.ResultTemp {
+    margin: 10% 5%;
+
+    &__Container {
+        margin-top: 1.5rem;
+
+        h1 {
+            margin-left: 4%;
+
+            font-family: Inter;
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 61px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    &__Container--input {
+        input {
+            text-align: center;
+
+            border-radius: 30px;
+
+            font-family: Inter;
+            font-size: 20px !important;
+            font-weight: 800 !important;
+            padding: 1.5%;
+
+        }
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .ResultTemp {
+        
+        img {
+            width: 180px;
+            height: 140px;
+        }
+        h1 {
+            font-size: 30px !important;
+            font-weight: 800;
+
+            line-height: 20px;
+        }
+        }
+    }
+
+
+@media screen and (max-width: 430px) {
+    .ResultTemp {
+        img {
+            width: 120px;
+            height: 100px;
+        }
+
+        h1 {
+            font-size: 20px !important;
+            font-weight: 800;
+            line-height: 35px;
+
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

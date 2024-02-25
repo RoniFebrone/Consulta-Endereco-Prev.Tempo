@@ -1,0 +1,33 @@
+.nav-link {
+    color: white !important;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800 !important;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navbar-brand {
+    color: white !important;
+
+
+    font-family: Inter;
+    font-size: 30px !important;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#basic-navbar-nav{
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 430px) {
+    .nav-link {
+        a{
+            font-size: 10px !important;
+    }
+}
+}
