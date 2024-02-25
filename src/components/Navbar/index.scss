@@ -1,3 +1,16 @@
+.CustonNavbar{
+    display: flex;
+    justify-content: center !important;
+    background-color:  #0C70F2;
+    width: 100% !important;
+    ;
+
+    &__Container--Nav{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
+
 .nav-link {
     color: white !important;
     font-family: Inter;
@@ -8,11 +21,8 @@
     text-align: left;
 
 }
-
 .navbar-brand {
     color: white !important;
-
-
     font-family: Inter;
     font-size: 30px !important;
     font-weight: 800;
@@ -20,6 +30,7 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
 #basic-navbar-nav{
     justify-content: flex-end;
 }

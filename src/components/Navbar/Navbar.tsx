@@ -7,9 +7,9 @@ import './index.scss'
 
 function NavbarComponent() {
     return (
-        <Navbar expand="lg" className={"bg-primary"}>
-            <Container>
-                <Navbar.Brand href="#Enderecos">React-Bootstrap</Navbar.Brand>
+        <Navbar expand="lg" className="CustonNavbar">
+            <Container className='CustonNavbar__Container--Nav'>
+                <Navbar.Brand href="#Enderecos">DncWeather</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="justify-content-center">
